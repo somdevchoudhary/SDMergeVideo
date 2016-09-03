@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  MultipleVideoDemo
 //
-//  Created by SIS mobile on 9/1/16.
-//  Copyright © 2016 sparx. All rights reserved.
+//  Created by Somdev Choudhary on 03/09/16.
+//  Copyright © 2016 Somdev Choudhary. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
