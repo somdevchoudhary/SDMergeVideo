@@ -245,6 +245,7 @@
 -(IBAction)delete_btnTapped:(id)sender   // To delete Files in document directory
 {
     mergeBtn.hidden = YES;
+    playBtn.hidden = YES;
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *documentDirectory = [paths objectAtIndex:0];
@@ -271,6 +272,7 @@
     {
         [playerLayer1 removeFromSuperlayer];
         [playerLayer2 removeFromSuperlayer];
+
     }
     
     
